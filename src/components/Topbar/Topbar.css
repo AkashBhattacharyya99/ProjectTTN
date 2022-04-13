@@ -1,0 +1,41 @@
+.topbarContainer{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    font-size: large;
+    font-weight: 600;
+    margin-top: 20px;
+    background-color: aliceblue;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+
+}
+.topbarLeft{
+width: 12%;
+}
+.topbarLeft img{
+    width: 50px;
+    }
+
+.topbarCenter{
+width: 60%;
+}
+.topbarCenter input{
+    height: 39px;
+    width: 90%;
+    border-radius: 17px;
+    margin-top: 5px;
+	/* font-weight: 3px; */
+	color: #0f1012;
+	background-color: rgba(83, 81, 81, 0.1);
+	padding: 1px 15px;
+}
+
+.topbarRight{
+    width: 28%;
+}
+.topbarRight img{
+    width: 27px;
+    margin-top: 3px;
+}
