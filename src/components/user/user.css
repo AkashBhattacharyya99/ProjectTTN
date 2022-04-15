@@ -1,0 +1,104 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border-sizing: border-box; */
+
+}
+.wwwrapper{
+   display: flex; 
+   width: 90vw;
+   height: 80vh;
+   /* border: solid; */
+}
+.llleft{
+    width: 70%;
+    
+    /* flex:3 */
+    
+}
+.rrright{
+   width:30%; 
+   /* flex:1 */
+   /* border: solid; */
+   margin: 0 2rem;
+   
+}
+
+.ppprofileCover{
+    height: 100%;
+    position:relative;
+    width: 100%;
+
+}
+.cccover-image{
+    width: 100%;
+     padding-left: 15px;
+     padding-top:15px;
+    height: 250px;
+    object-fit: cover;
+}
+.ppprofileUserImg{
+    width: 150px;
+    height:150px;
+    border-radius: 80%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    
+    margin: auto;
+    margin-left: 40px;
+    top: 150px;
+    border: 3px solid white;
+}
+
+
+.ppprofileInfo{
+    padding-left: 40px;
+    padding-top: 3rem;
+    color: black;
+
+}
+.sssub-text{
+    font-size: small;
+    margin-top: 15px;
+}
+.button1{
+    background-color: rgb(63, 138, 251);
+    padding: 10px;
+    border-radius: 5px;
+    border-color: rgb(63, 138, 251) ;
+    box-shadow: none;
+
+}
+.text{
+    color:azure;
+    font-weight:bold;
+}
+.button2{
+    margin-left: 15px;
+    background-color: rgb(250, 252, 252);
+    border-color: rgb(63, 138, 251);
+box-shadow: none;
+padding: 10px;
+border-radius: 5px;
+}
+.text2{
+    color:rgb(63, 138, 251);
+    font-weight: bold;
+}
+
+.button1:hover{
+    background-color: rgb(254, 255, 255);
+    color: rgb(50, 109, 198);
+}
+.text:hover{
+    color: rgb(63, 138, 251);
+    
+}
+@media only screen and (max-width:640px){
+    /*.wrapper{
+        display:block;
+    }*/
+    .right{
+        display: none;
+    }
+}
